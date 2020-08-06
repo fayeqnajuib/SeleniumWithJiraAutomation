@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<!-- listener class-name="Project.E2ESeleniumFramework.Listeners"/-->
+<listener class-name="Listenersjira.JiraTestListener"/>
+</listeners>
+  <!--  <test name="Validate Nav bar">
+    <classes>
+    <class name="Project.E2ESeleniumFramework.Validatenavbar"/>
+    </classes>
+    </test>-->
+          <test name="Validate Title">
+    <classes>
+      <class name="Project.E2ESeleniumFramework.Validatetitle"/>
+      </classes>
+    </test>
+   <!--   <test name="Homepage">
+    <classes>
+      <class name="Project.E2ESeleniumFramework.Homepage"/>
+    </classes>
+  </test>  --> <!-- Test -->
+</suite> <!-- Suite -->
