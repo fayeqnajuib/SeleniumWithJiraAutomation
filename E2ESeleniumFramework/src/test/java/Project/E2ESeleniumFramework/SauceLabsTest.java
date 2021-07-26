@@ -21,13 +21,13 @@ import Jira.Jiraapi;
 
 public class SauceLabsTest {
 
-public static final String USERNAME = "fayeqn";
+public static final String USERNAME = "fayeqnaj";
 
-  public static final String ACCESS_KEY = "6d48fd92-1846-46cc-a401-1c32aaf5aad1";
+  public static final String ACCESS_KEY = "4284d675-faa6-4fef-9c43-b1a5c4b2ed2a";
 
-  public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "ondemand.eu-central-1.saucelabs.com:443/wd/hub";
-  static String sauceUserName = "fayeqn";
-  static String sauceAccessKey = "6d48fd92-1846-46cc-a401-1c32aaf5aad1";
+  public static final String sURL = "https://" + USERNAME + ":" + ACCESS_KEY +"@ondemand.apac-southeast-1.saucelabs.com:443/wd/hub";
+  static String sauceUserName = "fayeqnaj";
+  static String sauceAccessKey = "4284d675-faa6-4fef-9c43-b1a5c4b2ed2a";
   @Jiraapi(Ticketlogging=true)
 @Test
 public  void saucetest() throws MalformedURLException {
@@ -45,17 +45,17 @@ caps.setCapability("username", sauceUserName);
 caps.setCapability("accessKey", sauceAccessKey);
 
 //set browser to Safari
-caps.setCapability("browserName", "Safari");
+caps.setCapability("browserName", "Chrome");
 
 //set operating system to macOS version 10.13
-caps.setCapability("platform", "macOS 10.13");
+caps.setCapability("platform", "Windows 8.1");
 
 //set the browser version to 11.1
-caps.setCapability("version", "11.1");
+caps.setCapability("version", "89");
 
+URL url = new URL(sURL);
 
-
-WebDriver  driver = new RemoteWebDriver(new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub"), caps);
+WebDriver  driver = new RemoteWebDriver(url, caps);
 driver.manage().window().maximize();
 
 

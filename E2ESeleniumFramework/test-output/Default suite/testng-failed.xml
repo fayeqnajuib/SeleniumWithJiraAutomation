@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Project.E2ESeleniumFramework.Validatenavbar">
+      <class name="Project.E2ESeleniumFramework.SauceLabsTest">
         <methods>
-          <include name="teardown"/>
-          <include name="validatenavbar"/>
-          <include name="initialize"/>
+          <include name="saucetest"/>
         </methods>
-      </class> <!-- Project.E2ESeleniumFramework.Validatenavbar -->
+      </class> <!-- Project.E2ESeleniumFramework.SauceLabsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
