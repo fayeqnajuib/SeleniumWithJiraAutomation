@@ -60,7 +60,7 @@ driver.manage().window().maximize();
 
 
 driver.get("https://www.amazon.com/");
-
+driver.get("https://www.yahoo.com");
 System.out.println(driver.getTitle());
 driver.get("http://google.com");
 System.out.println(driver.getTitle());
