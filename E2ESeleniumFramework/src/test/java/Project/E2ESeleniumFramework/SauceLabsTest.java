@@ -40,7 +40,7 @@ DesiredCapabilities caps = new DesiredCapabilities();
 
 
 caps.setCapability("username", sauceUserName);
-
+caps.setCapability("name", "Web Driver demo Test");
 //set your sauce labs access key
 caps.setCapability("accessKey", sauceAccessKey);
 
@@ -48,10 +48,10 @@ caps.setCapability("accessKey", sauceAccessKey);
 caps.setCapability("browserName", "Chrome");
 
 //set operating system to macOS version 10.13
-caps.setCapability("platform", "Windows 8.1");
+caps.setCapability("platform", "Windows 10");
 
 //set the browser version to 11.1
-caps.setCapability("version", "89");
+caps.setCapability("version", "90");
 
 URL url = new URL(sURL);
 

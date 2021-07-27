@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-26T07:01:18Z" name="Default suite" finished-at="2021-07-26T07:01:34Z" duration-ms="16556">
+  <suite started-at="2021-07-27T06:53:32Z" name="Default suite" finished-at="2021-07-27T06:53:56Z" duration-ms="23251">
     <groups>
     </groups>
-    <test started-at="2021-07-26T07:01:18Z" name="Default test" finished-at="2021-07-26T07:01:34Z" duration-ms="16556">
+    <test started-at="2021-07-27T06:53:32Z" name="Default test" finished-at="2021-07-27T06:53:56Z" duration-ms="23251">
       <class name="Project.E2ESeleniumFramework.SauceLabsTest">
-        <test-method signature="saucetest()[pri:0, instance:Project.E2ESeleniumFramework.SauceLabsTest@7c711375]" started-at="2021-07-26T07:01:18Z" name="saucetest" finished-at="2021-07-26T07:01:34Z" duration-ms="16527" status="PASS">
+        <test-method signature="saucetest()[pri:0, instance:Project.E2ESeleniumFramework.SauceLabsTest@7c711375]" started-at="2021-07-27T06:53:32Z" name="saucetest" finished-at="2021-07-27T06:53:56Z" duration-ms="23198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saucetest -->
